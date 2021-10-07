@@ -9,7 +9,7 @@ outputs:
   hora:
     description: 'La hora del saludo'
 runs:
-  using: 'Dockers'
+  using: 'Docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.quien }}

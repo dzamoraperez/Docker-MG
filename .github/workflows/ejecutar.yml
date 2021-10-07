@@ -11,4 +11,4 @@ jobs:
         with:
           quien: 'Lucho'
       - name: 'Mostrar la hora obtenida'
-        run: echo "La hora obtenida fue ${{ steps.hola.outputs.hota }}"
+        run: echo "La hora obtenida fue ${{ steps.hola.outputs.hora }}"

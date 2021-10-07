@@ -8,7 +8,7 @@ jobs:
       - name: 'Ejecutar la accion del docher'
         id: hola
         uses: Docker-MG/accion@v1
-        whith:
+        with:
           quien: 'Lucho'
       - name: 'Mostrar la hora obtenida'
         run: echo "La hora obtenida fue ${{ steps.hola.outputs.hota }}"
